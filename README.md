@@ -119,6 +119,7 @@ All packages are available on Google Colab without additional configuration. Ins
 pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdown
 ```
 
+
 ---
 
 ## References
@@ -126,6 +127,11 @@ pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdo
 - Terry et al. (2022). *Locating Hidden Exoplanets in ALMA Data Using Machine Learning.* ApJ 941(2):192.
 - Kreidberg (2015). *batman: BAsic Transit Model cAlculatioN in Python.* PASP 127(957):1161.
 - Kanagawa et al. (2016). *Mass Constraint for a Planet in a Protoplanetary Disk from the Gap Width.* PASJ 68:43.
+
+---
+## AI Assistance Disclosure
+
+AI assistance was used for code sccaffolding, review, documentation, literature verification, and robustness improvements. All experiments, model training, and results are author's own work.
 
 ---
 
