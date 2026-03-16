@@ -46,7 +46,8 @@ The notebook is designed for Google Colab (T4 GPU). Runtime is approximately 25 
 
 1. Open `EXXA_3_Test_Task.ipynb` in Google Colab
 2. Mount your Google Drive when prompted
-3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors)
+3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors) Direct download via gdown is
+   unreliable due to rate limits — Drive mount is the recommended approach.
 4. Run `Runtime → Run All` — no further intervention required
 
 To use pre-trained weights instead of retraining, download `best_ae.pt` and `best_clf.pt` from the Drive link above and place them in the Colab working directory.
