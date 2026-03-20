@@ -54,8 +54,14 @@ The notebook is designed for Google Colab (T4 GPU). Runtime is approximately 25 
 
 1. Open `EXXA_3_Test_Task.ipynb` in Google Colab
 2. Mount your Google Drive when prompted
+<<<<<<< HEAD
 3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors). Direct download via gdown is unreliable due to rate limits -- Drive mount is the recommended approach.
 4. Run `Runtime → Run All` -- no further intervention required after Drive mount
+=======
+3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors) Direct download via gdown is
+   unreliable due to rate limits — Drive mount is the recommended approach.
+4. Run `Runtime → Run All` — no further intervention required
+>>>>>>> e4c87270635740299dc65638fa28b80034015443
 
 To use pre-trained weights instead of retraining, download `best_ae.pt` and `best_clf.pt` from the Drive link above and place them in the Colab working directory.
 
@@ -131,6 +137,7 @@ All packages are available on Google Colab without additional configuration. Ins
 pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdown
 ```
 
+
 ---
 
 ## References
@@ -139,6 +146,11 @@ pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdo
 - Kreidberg (2015). *batman: BAsic Transit Model cAlculatioN in Python.* PASP 127(957):1161. doi:10.1086/683602
 - Kanagawa et al. (2016). *Mass Constraint for a Planet in a Protoplanetary Disk from the Gap Width.* PASJ 68:43. doi:10.1093/pasj/psw037
 - McInnes et al. (2018). *UMAP: Uniform Manifold Approximation and Projection.* arXiv:1802.03426
+
+---
+## AI Assistance Disclosure
+
+AI assistance was used for code sccaffolding, review, documentation, literature verification, and robustness improvements. All experiments, model training, and results are author's own work.
 
 ---
 
