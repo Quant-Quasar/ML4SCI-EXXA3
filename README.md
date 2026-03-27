@@ -147,6 +147,7 @@ pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdo
 AI tools were used for code review, documentation formatting, and literature 
 citation verification. All experiments, model architectures, training runs, 
 and results are the author's own original work.
+
 ---
 
 *GSoC 2026 ML4SCI EXXA3 | adityaparashar3434@gmail.com* 
