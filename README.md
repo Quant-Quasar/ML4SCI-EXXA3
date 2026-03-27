@@ -54,14 +54,8 @@ The notebook is designed for Google Colab (T4 GPU). Runtime is approximately 25 
 
 1. Open `EXXA_3_Test_Task.ipynb` in Google Colab
 2. Mount your Google Drive when prompted
-<<<<<<< HEAD
-3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors). Direct download via gdown is unreliable due to rate limits -- Drive mount is the recommended approach.
-4. Run `Runtime → Run All` -- no further intervention required after Drive mount
-=======
-3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors) Direct download via gdown is
-   unreliable due to rate limits — Drive mount is the recommended approach.
-4. Run `Runtime → Run All` — no further intervention required
->>>>>>> e4c87270635740299dc65638fa28b80034015443
+3. Place `continuum_data_subset.zip` in your Drive root (dataset provided by ML4SCI mentors). Direct download via gdown is unreliable due to rate limits - Drive mount is the recommended approach.
+4. Run `Runtime → Run All` - no further intervention required after Drive mount.
 
 To use pre-trained weights instead of retraining, download `best_ae.pt` and `best_clf.pt` from the Drive link above and place them in the Colab working directory.
 
@@ -93,7 +87,7 @@ Both functions include input validation and error handling. The threshold of 0.9
 - **Dataset**: 150 synthetic ALMA continuum observations at 1250 μm (fits format, Stokes I)
 - **Architecture**: Convolutional Autoencoder (1,368,305 params), two-phase training (MSE then MSE+SSIM)
 - **Augmentation**: Random 0-360 degree rotation + horizontal/vertical flips (orientation invariance)
-- **Clustering**: UMAP-guided K-means (k=6) -- KMeans on 2D UMAP embedding rather than raw 64-dim latent space
+- **Clustering**: UMAP-guided K-means (k=6) - KMeans on 2D UMAP embedding rather than raw 64-dim latent space
 - **Reconstruction MSE**: 0.007042
 - **Silhouette (raw latent, k=6)**: 0.448
 - **Silhouette (UMAP-guided, k=6)**: 0.628
@@ -137,7 +131,6 @@ All packages are available on Google Colab without additional configuration. Ins
 pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdown
 ```
 
-
 ---
 
 ## References
@@ -150,8 +143,9 @@ pip install batman-package astropy umap-learn tqdm pytorch-msssim lightkurve gdo
 ---
 ## AI Assistance Disclosure
 
-AI assistance was used for code sccaffolding, review, documentation, literature verification, and robustness improvements. All experiments, model training, and results are author's own work.
-
+AI tools were used for code review, documentation formatting, and literature 
+citation verification. All experiments, model architectures, training runs, 
+and results are the author's own original work.
 ---
 
-*GSoC 2026 ML4SCI EXXA3 | adityaparashar3434@gmail.com*
+*GSoC 2026 ML4SCI EXXA3 | adityaparashar3434@gmail.com* 
